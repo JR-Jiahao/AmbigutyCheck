@@ -28,11 +28,6 @@ output_log = open(save_log, 'w')
 # 获取存放TID信息的Excel表格路径，用于读取其中的TID
 gt_excel_location = raw_input("Please drag your excel file to here:")
 
-'''由于每条case都会由不同的人测试，并且测试人员有非 CN E-ink组的.
-   所以定义一个数组，将Testrial中所有CN DA的测试人员名称存储起来,
-   便于之后过滤掉其他Team的测试人员，使得之后做判断的时候，只针对
-   CN DA Team。
-'''
 DA_name = ["Tested by Xueshan W.", "Tested by Zhou, K.", "Tested by Xudong L.",
            "Tested by Xuewei Q.", "Tested by Ruirui M.", "Tested by Tian Y.",
            "Tested by lin l.", "Tested by LiHui","Tested by Jin G.",
